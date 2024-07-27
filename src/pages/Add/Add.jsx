@@ -42,7 +42,7 @@ const Add = () => {
             toast.success(response.data.message)
         }
         else{
-
+            toast(response.data.message)
         }
     }
 
